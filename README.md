@@ -2,4 +2,4 @@
 
 **Windows only.**
 
-**All scripts except for removal scripts are by item (https://github.com/Qian-MoBai/Back-up-and-restore-WLAN)**
+**All scripts except for removal scripts are by this repository (https://github.com/Qian-MoBai/Back-up-and-restore-WLAN)**
