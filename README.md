@@ -1,4 +1,4 @@
-**This scripts can help you backup, restore and clean WLAN in Windows.**
+**This script collection can help you backup, restore and clean WLAN in Windows.**
 
 **Windows only.**
 
