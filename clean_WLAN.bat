@@ -1,9 +1,9 @@
 @echo off
 
-:: ¼ì²éÊÇ·ñÒÔ¹ÜÀíÔ±È¨ÏÞÔËÐÐ
+:: æ£€æŸ¥æ˜¯å¦ä»¥ç®¡ç†å‘˜æƒé™è¿è¡Œ
 net session >nul 2>&1
 if %errorlevel% neq 0 (
-    echo ÇëÇóÒÔ¹ÜÀíÔ±Éí·ÝÖØÐÂÔËÐÐ½Å±¾...
+    echo è¯·æ±‚ä»¥ç®¡ç†å‘˜èº«ä»½é‡æ–°è¿è¡Œè„šæœ¬...
     echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\RunElevated.vbs"
     echo UAC.ShellExecute "%~s0", "", "", "runas", 1 >> "%temp%\RunElevated.vbs"
     "%temp%\RunElevated.vbs"
@@ -13,10 +13,11 @@ if %errorlevel% neq 0 (
 
 :============================================================================================================
 
-title Çå³ý±£´æµÄWLAN
+title æ¸…é™¤ä¿å­˜çš„WLAN
 
 @echo off
-echo ÕýÔÚÇå³ýÒÑ±£´æµÄ WiFi ÃÜÂë...
+echo æ­£åœ¨æ¸…é™¤å·²ä¿å­˜çš„ WiFi å¯†ç ...
 netsh wlan delete profile name=*  >nul 2>&1
-echo ÒÑ³É¹¦Çå³ýËùÓÐÒÑ±£´æµÄ WiFi ÃÜÂë¡£
-pause
+echo å·²æˆåŠŸæ¸…é™¤æ‰€æœ‰å·²ä¿å­˜çš„ WiFi å¯†ç ã€‚
+echo æŒ‰ä»»æ„é”®é€€å‡º
+pause > nul
