@@ -1,3 +1,5 @@
-仅适配Windows
+**This scripts can help you backup, restore and clean WLAN in Windows.**
 
-除清除脚本之外其他均更改于此项目（https://github.com/Qian-MoBai/Back-up-and-restore-WLAN）
+**Windows only.**
+
+**All changes except for removal scripts are in this item (https://github.com/Qian-MoBai/Back-up-and-restore-WLAN)**
